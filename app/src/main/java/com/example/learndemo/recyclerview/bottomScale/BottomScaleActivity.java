@@ -1,11 +1,9 @@
-package com.example.learndemo.bottomScale;
+package com.example.learndemo.recyclerview.bottomScale;
 
-import android.app.Activity;
 import android.graphics.Rect;
-import android.os.Bundle;
 import android.view.View;
 
-import com.example.learndemo.BaseActivity;
+import com.example.learndemo.base.BaseActivity;
 import com.example.learndemo.R;
 
 import androidx.annotation.NonNull;

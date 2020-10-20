@@ -1,4 +1,4 @@
-package com.example.learndemo.stickHeader;
+package com.example.learndemo.recyclerview.stickHeader;
 
 import android.graphics.Color;
 import android.view.Gravity;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.example.learndemo.BaseActivity;
+import com.example.learndemo.base.BaseActivity;
 import com.example.learndemo.R;
 
 import androidx.annotation.NonNull;

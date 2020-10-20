@@ -1,9 +1,9 @@
-package com.example.learndemo.zhihuAd;
+package com.example.learndemo.recyclerview.zhihuAd;
 
 import android.graphics.Rect;
 import android.view.View;
 
-import com.example.learndemo.BaseActivity;
+import com.example.learndemo.base.BaseActivity;
 import com.example.learndemo.R;
 
 import androidx.annotation.NonNull;

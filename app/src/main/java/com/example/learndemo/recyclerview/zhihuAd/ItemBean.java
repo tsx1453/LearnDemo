@@ -1,4 +1,4 @@
-package com.example.learndemo.zhihuAd;
+package com.example.learndemo.recyclerview.zhihuAd;
 
 public class ItemBean {
 

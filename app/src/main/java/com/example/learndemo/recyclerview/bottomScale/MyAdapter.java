@@ -1,4 +1,4 @@
-package com.example.learndemo.bottomScale;
+package com.example.learndemo.recyclerview.bottomScale;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,8 +7,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.learndemo.R;
-
-import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

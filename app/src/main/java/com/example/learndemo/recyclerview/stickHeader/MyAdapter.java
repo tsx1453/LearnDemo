@@ -1,4 +1,4 @@
-package com.example.learndemo.stickHeader;
+package com.example.learndemo.recyclerview.stickHeader;
 
 import android.graphics.Color;
 import android.view.Gravity;
@@ -38,13 +38,12 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        TextView view = new TextView(parent.getContext());
         if (viewType == 0) {
-            TextView view = new TextView(parent.getContext());
             view.setTextSize(16);
             view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 300));
             return new NormalViewHolder(view);
         } else {
-            TextView view = new TextView(parent.getContext());
             view.setTextColor(Color.RED);
             view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             view.setGravity(Gravity.CENTER);

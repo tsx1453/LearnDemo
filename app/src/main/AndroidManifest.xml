@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bottomScale.BottomScaleActivity"></activity>
-        <activity android:name=".stickHeader.StickHeaderActivity" />
-        <activity android:name=".zhihuAd.ZhiHuAdActivity" />
+        <activity android:name=".base.SingleFragmentActivity"></activity>
+        <activity android:name=".recyclerview.bottomScale.BottomScaleActivity" />
+        <activity android:name=".recyclerview.stickHeader.StickHeaderActivity" />
+        <activity android:name=".recyclerview.zhihuAd.ZhiHuAdActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

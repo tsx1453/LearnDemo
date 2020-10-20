@@ -1,4 +1,4 @@
-package com.example.learndemo.stickHeader;
+package com.example.learndemo.recyclerview.stickHeader;
 
 public class ItemBean {
 

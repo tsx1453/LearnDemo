@@ -1,4 +1,4 @@
-package com.example.learndemo.zhihuAd;
+package com.example.learndemo.recyclerview.zhihuAd;
 
 import android.view.LayoutInflater;
 import android.view.View;
