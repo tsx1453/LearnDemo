@@ -86,4 +86,10 @@ public class VirtualDisplayDemo extends BaseFragment {
             viewInVD.requestFocus();
         }
     }
+
+    @Override
+    public void onDestroy() {
+        virtualDisplay.release();
+        super.onDestroy();
+    }
 }
