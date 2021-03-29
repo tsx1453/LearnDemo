@@ -15,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.learndemo.base.BaseActivity;
 import com.example.learndemo.base.SingleFragmentActivity;
+import com.example.learndemo.input_connection.InputConnectionDemo;
+import com.example.learndemo.notification.NotificationFragment;
 import com.example.learndemo.recyclerview.bottomScale.BottomScaleActivity;
 import com.example.learndemo.recyclerview.stickHeader.StickHeaderActivity;
 import com.example.learndemo.recyclerview.zhihuAd.ZhiHuAdActivity;
@@ -29,7 +31,9 @@ public class MainActivity extends BaseActivity {
             new HomeItem("仿知乎广告", ZhiHuAdActivity.class, "根据滚动状态双广告切换"),
             new HomeItem("分组吸顶", StickHeaderActivity.class, "RecyclerView分组Header吸顶实现"),
             new HomeItem("底部Item动画", BottomScaleActivity.class, "根据滚动状态缩放最后一个View"),
-            new HomeItem("VirtualDisplay", "VirtualDisplay基本使用", VirtualDisplayDemo.class)
+            new HomeItem("VirtualDisplay", "VirtualDisplay基本使用", VirtualDisplayDemo.class),
+            new HomeItem("InputConnection", "InputConnection学习", InputConnectionDemo.class),
+            new HomeItem("Notification", "Notification demo", NotificationFragment.class)
     );
 
     @Override
